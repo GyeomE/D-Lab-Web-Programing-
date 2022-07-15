@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="position-mission1.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="div-1"></div>
+    <div class="div-2"></div>
+    <div class="div-3"></div>
+    <div class="div-4"></div>
+    
+</body>
+</html>
+
+
+
+
+
+
+*{
+    margin:0;
+}
+
+div{
+    width:100px;
+    height:100px;
+    position:absolute;
+}
+
+.div-1{
+    background-color: black;
+}
+
+.div-2{
+    background-color:skyblue;
+    left:100px;
+}
+
+.div-3{
+    background-color: skyblue;
+    top:100px;
+}
+
+.div-4{
+    background-color: black;
+    top : 100px;
+    left: 100px;
+}
